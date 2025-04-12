@@ -11,7 +11,7 @@ Setup the platform to deliver individual virtualized applications, providing sec
   - Domain Controller: serandrip-dc
 
 ### Tools & Technologies Used
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 - Azure VM's
 - Azure Virtual Networks
 - Load Balancers
@@ -29,11 +29,11 @@ Setup the platform to deliver individual virtualized applications, providing sec
 
 ### Setting-up
 1. Created 3 Instances of VM's with the same Hardware setup, Resource Group and under the same virtual network
-![alt text](instanceDetails.png)
+![alt text](images/instanceDetails.png)
 2. Create and attach an Azure data disk for the user profile disk (UPD) share
-![alt text](image.png)
+![alt text](images/image.png)
 3. Create an external load balancer to access the deployment externally
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 4. Configure the external load balancer for your deployment
 5. Enter an external URL/DNS name for your deployment to access it externally
 
@@ -41,9 +41,9 @@ Setup the platform to deliver individual virtualized applications, providing sec
 1. setup the DC server and all the other VM instances to the same domain service
 2. Add all the servers you're going to use for Remote Desktop Services to Server Manager
 3. Create a session-based deployment to deploy the Remote Desktop Services components
-![alt text](RDS-interface.png)
+![alt text](images/RDS-interface.png)
 4. Add RD License Server
-![alt text](RDS-Licensing.png)
+![alt text](images/RDS-Licensing.png)
 5. Activate the RD License Server and add it to the License Servers group
 6. Add the RD Gateway server and certificate name
 7. Create and install self-signed certificates for the RD Gateway and RD Connection Broker servers.
@@ -53,4 +53,4 @@ Setup the platform to deliver individual virtualized applications, providing sec
 
 ### Outcome / Result
 - Created an enviorenment, where any remote user can log-in to a remote desktop/app configured by the admin with domain credentials
-![alt text](<Screenshot 2025-04-11 222318.png>)
+![alt text](<images/Screenshot 2025-04-11 222318.png>)
