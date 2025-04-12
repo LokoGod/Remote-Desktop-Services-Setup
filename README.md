@@ -5,10 +5,10 @@ Remote Desktop Services let you deliver virtualized applications and provide sec
 Setup the platform to deliver individual virtualized applications, providing secure mobile and remote desktop access, and providing end users the ability to run their applications and desktops from the cloud.
 
 - Setup 3 VM Instances for
-  - RD Connection Broker
-  - RD Web Access & Gateway Server
-  - RD Session Host
-  - Domain Controller
+  - RD Connection Broker: Serandrip-Cb
+  - RD Web Access & Gateway Server: Serandrip-WebGw1
+  - RD Session Host: Serandrip-Sh1
+  - Domain Controller: serandrip-dc
 
 ### Tools & Technologies Used
 ![alt text](image-2.png)
@@ -17,6 +17,8 @@ Setup the platform to deliver individual virtualized applications, providing sec
 - Load Balancers
 - Domain Controller
 - Active Directory
+- GPO's
+- Windows Server 2022
 
 ### Usefull Links
 - https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/create-virtual-machines-for-remote-desktop
