@@ -4,7 +4,7 @@ Remote Desktop Services let you deliver virtualized applications and provide sec
 ### Objective
 Setup the platform to deliver individual virtualized applications, providing secure mobile and remote desktop access, and providing end users the ability to run their applications and desktops from the cloud.
 
-- Setup 3 VM Instances for
+- Setup 4 VM Instances for
   - RD Connection Broker: Serandrip-Cb
   - RD Web Access & Gateway Server: Serandrip-WebGw1
   - RD Session Host: Serandrip-Sh1
